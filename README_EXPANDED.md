@@ -96,6 +96,3 @@ Join us in exploring the measurable bias toward meaning hidden within the laws o
 
 
 ---
-
-Would you like me to keep this in README prose style (flowing narrative) or should I refactor it into a tighter research-note style with shorter, bullet-like sections (to feel more like a lab report on GitHub)?
-
