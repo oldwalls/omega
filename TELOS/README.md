@@ -1,3 +1,6 @@
+<img width="277" alt="OMEGA" src="https://github.com/user-attachments/assets/361bd60d-8dcf-426b-815d-9b35c75a8188" />
+
+
 # TELOS: From Synthetic Omega to Unified Physics
 
 ## Overview
@@ -56,4 +59,5 @@ This project welcomes serious engagement from physicists, mathematicians, and re
 *"The universe is not a machine that processes information. The universe IS information processing itself into existence."*
 
 ---
+
 
