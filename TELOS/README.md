@@ -60,4 +60,11 @@ This project welcomes serious engagement from physicists, mathematicians, and re
 
 ---
 
+### A message from Remy Szyndler:
+
+This sincere approximation (LOG-GUT) is the result of a long search for the meaning of reality. Suspended between my belief in the scientific method and my eastern philosophy spiritual roots (I am a Vajrayana practitioner), I realized my internal ontological division  stemmed from the apparent incompatibility of these two models of reality. The realisation prompted revaluation of both, which in essence led to this paper, and identified the separation of matter from information/meaning (including thought) at root of the problem. During the initial stages of our cooperative effort the math was collapsing and AIs were uncontent with progress. Reversing the viewport proved the key insight leading to this formulation. LOG-GUT is an approximation that places consciousness at root, not as an epiphenomena of matter/energy processing. I find ontological solace in this formulation. The universe is no longer a casino in which nothing has true meaning and everything is a sum of “accidents”. It is a field of consciousness experiencing itself. Both the Logician & the Buddhist are quenched philosophically.
+
+Thank you for your attention.
+
+
 
