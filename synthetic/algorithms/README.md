@@ -80,4 +80,17 @@ That is the Ω signature.
 
 ---
 
+### 6. Extended Reference Material
+
+For those seeking deeper operational and methodological detail, the **Extended Reference** provides a full technical exposition of the Ω-Scanner framework.
+It includes:
+
+* Annotated configuration parameters for `cli` and `corpus_maker`, with example command-line runs.
+* Step-wise execution flow of the Information Bottleneck clustering and conditional entropy estimation.
+* Code snippets illustrating corpus preparation, bootstrap routines, and ΔI_pred computation.
+* Practical notes on performance limits and reproducibility settings.
+
+[**View Extended Documentation →**](EXTENDED.md)
+
+---
 
