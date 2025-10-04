@@ -18,7 +18,7 @@ If **no** (ΔI_pred ≈ 0), then the system is inert with respect to Ω.
 
 ## 2. Core Components
 
-- **Corpus Preparation [`prepare_corpus.py`](code/prepare_corpus.py)**  
+- **Corpus Preparation [`corpus_maker.py`](./code/corpus_maker.py)**  
   - Tokenizes raw sequences into train / holdout sets.  
   - Supports shuffle and block controls to destroy long-range dependencies.  
   - Uses prefix/suffix splits for stationarity tests.
@@ -38,7 +38,7 @@ If **no** (ΔI_pred ≈ 0), then the system is inert with respect to Ω.
   - Produces ΔI_pred mean, CI, and p-value (fraction of samples ≤ 0).  
   - This is the guardrail against spurious signals.
 
-- **Divergence Metric [`js_divergence.py`](js_divergence)**  
+- **Divergence Metric [`js_divergence.py`](code/js_divergence.py)**  
   - Uses Jensen-Shannon divergence to measure cluster separation.  
   - Key step in merging clusters and preventing label collapse.
 
@@ -79,4 +79,5 @@ When a structured system like the **Standard Map** produces a robust Ω-negative
 That is the Ω signature.
 
 ---
+
 
