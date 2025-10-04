@@ -24,8 +24,8 @@ This process mirrors scientific peer review, but faster, and ensures that what w
 
 ## External AI Audits
 
-- [Claude Audit](claude_audit.md)  
-- [Gemini Audit](gemini_audit.md)  
+- [Claude Audit](CLAUDE_audit.md)  
+- [Gemini Audit](GEMINI_audit.md)  
 
 Both auditors had full access to:  
 - the **Ω-Scanner codebase** (Python implementation),  
@@ -33,3 +33,4 @@ Both auditors had full access to:
 - the **statistical outputs** (bootstrap confidence intervals, entropy reports).  
 
 Their assessments are recorded here, unedited, as part of the permanent scientific record of LOG-GUT.
+
