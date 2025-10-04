@@ -1,4 +1,4 @@
-# INITIAL RUN
+```# INITIAL RUN
 
 
 C:\omega\omega>python -m cli analyze-cond ^
@@ -207,3 +207,4 @@ More?   --out-json runs/stdmap_ctx3_k5_cl32_ctx6k_s333.json
 
 [Ω] summary (first variant):
   tag=true  ΔI_pred≈-0.006631  Δhash≈0.045731  SCR_lzma≈2.957e-07  energy=22424
+```
