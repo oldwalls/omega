@@ -1,3 +1,31 @@
+# Announcement
+
+### This repository serves as the central hub for the implementation and validation of the Logos Omega Gradient framework.
+
+---
+
+## 🚧 **PROJECT STATUS: Ω-SCANNER VALIDATION** 🚧
+
+The core team is currently focused on the **Synthetic Ω-Testbed** phase.
+
+We are in the final stages of **publishing the initial codebase and simulation results** from the first phase of the Ω-Scanner's validation.
+
+### Immediate Focus:
+
+1.  **Codebase Upload:** Finalizing the structure and documentation for the Python implementation of the **Symbolic Scanner Statistical Methodology** (predictive information gain via Information Bottleneck clustering).
+2.  **Synthetic Results Publication:** Uploading the complete findings, including entropy data and measurements, confirming the Ω-Gradient's **substrate-invariance** across structured synthetic dynamical systems (e.g., Standard Map, 1D Ising Model).
+3.  **Documentation:** Populating the dedicated `synthetic/` sub-repository with the full project primer and technical details.
+
+Please check the **`synthetic/`** sub-repository for the formal project documentation and data in the coming days.
+
+Upon publication of these core findings, development will shift to the **Molecular Ω-Scanner** phase, probing Ω bias in chemical reaction networks.
+
+---
+
+Thank you for your patience and interest in the scientific validation of LOG.
+
+---
+
 <img height="400" src="https://github.com/oldwalls/omega/blob/main/images/ABSTRACT.png">  
 
 ---
