@@ -18,27 +18,27 @@ If **no** (ΔI_pred ≈ 0), then the system is inert with respect to Ω.
 
 ## 2. Core Components
 
-- **Corpus Preparation (`prepare_corpus.py`)**  
+- **Corpus Preparation [`prepare_corpus.py`](code/prepare_corpus.py)**  
   - Tokenizes raw sequences into train / holdout sets.  
   - Supports shuffle and block controls to destroy long-range dependencies.  
   - Uses prefix/suffix splits for stationarity tests.
 
-- **Conditional Coder (`cond_coder.py`)**  
+- **Conditional Coder [`cond_coder.py`](code/cond_coder.py)**  
   - Implements n-gram probability estimation.  
   - Base coder: H(x | context).  
   - Conditional coder: H(x | context, Z).  
 
-- **Labelers (`labelers.py`)**  
+- **Labelers [`labelers.py`](code/labelers.py)**  
   - Clusters high-dimensional contexts into latent states Z using Information Bottleneck.  
   - Control modes: shuffled labels, hashed labels.  
   - Null label “C-1” ensures coverage of degenerate cases.
 
-- **Bootstrap Statistics (`bootstrap.py`)**  
+- **Bootstrap Statistics [`bootstrap.py`](code/bootstrap.py)**  
   - Resamples token blocks to estimate confidence intervals.  
   - Produces ΔI_pred mean, CI, and p-value (fraction of samples ≤ 0).  
   - This is the guardrail against spurious signals.
 
-- **Divergence Metric (`js_divergence.py`)**  
+- **Divergence Metric [`js_divergence.py`](js_divergence)**  
   - Uses Jensen-Shannon divergence to measure cluster separation.  
   - Key step in merging clusters and preventing label collapse.
 
@@ -79,3 +79,4 @@ When a structured system like the **Standard Map** produces a robust Ω-negative
 That is the Ω signature.
 
 ---
+
