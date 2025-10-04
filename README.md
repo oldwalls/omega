@@ -14,7 +14,7 @@ We are in the final stages of **publishing the initial codebase and simulation r
 
 1.  **Codebase Upload:** Finalizing the structure and documentation for the Python implementation of the **Symbolic Scanner Statistical Methodology** (predictive information gain via Information Bottleneck clustering).
 2.  **Synthetic Results Publication:** Uploading the complete findings, including entropy data and measurements, confirming the Ω-Gradient's **substrate-invariance** across structured synthetic dynamical systems (e.g., Standard Map, 1D Ising Model).
-3.  **Documentation:** Populating the dedicated `synthetic/` sub-repository with the full project primer and technical details.
+3.  **Documentation:** Populating the dedicated [`synthetic`](synthetic) sub-repository with the full project primer and technical details.
 
 Please check the **`synthetic/`** sub-repository for the formal project documentation and data in the coming days.
 
