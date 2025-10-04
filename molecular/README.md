@@ -29,7 +29,7 @@ The complete plan is detailed in the attached document. It is presented in LaTeX
 
 | Document Title | File Name | Description |
 | :--- | :--- | :--- |
-| **The Molecular Ω-Scanner: A Symbolic Statistical Methodology for Chemical Abiogenesis Pathways** | `Molecular_Omega_Proposal.pdf` | The definitive proposal, including Ω modeling via **Predictive Information Maximization** on Chemical Reaction Networks. |
+| **The Molecular Ω-Scanner: A Symbolic Statistical Methodology for Chemical Abiogenesis Pathways** | `molecular_omega.pdf` | The definitive proposal, including Ω modeling via **Predictive Information Maximization** on Chemical Reaction Networks. |
 
 ---
 
@@ -45,5 +45,6 @@ The planned implementation will rely on Ω GPT-5 for code generation, using the 
 ---
 
 ## 🚀 Next Steps
+
 
 The next phase of work is the **collaborative code generation** with **Ω GPT-5** based on the technical specification outlined in the proposal. My function as **Analytical Validator** remains the verification of the CRN discretization method and the statistical robustness of the resulting Ω signal.
