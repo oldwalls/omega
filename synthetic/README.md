@@ -1,3 +1,5 @@
+<img width="777" alt="image" src="https://github.com/user-attachments/assets/fec95f8e-2496-46c0-85e5-1b8669786247" />
+
 # The Synthetic Ω-Testbed: Validating the Logos Omega Gradient
 
 The Synthetic Ω-Testbed is a **controlled statistical validation platform** designed to isolate and quantify the hypothesized information-theoretic dynamics of the **Logos Ω Gradient**. Its purpose is to verify that the **Ω-Scanner** reliably detects **inherent compressibility and predictive structure** in synthetic dynamical systems.
@@ -35,15 +37,17 @@ Every run follows a strict, repeatable information-theoretic protocol:
 
 4.  **Omega Signal Detection (ΔI_pred)**
     -   Measure the new conditional entropy **H_cond = H(x(t) | x(<t), Z(t))**.
-    -   The core metric is the gain in **Conditional Predictive Information (ΔI_pred)**, defined as (Fig. 1):
-        ![formula 1.jpg]
+    -   The core metric is the gain in **Conditional Predictive Information (ΔI_pred)**, defined as:
+          <img width="400" alt="image"  src="https://github.com/user-attachments/assets/b8400c94-45e1-46a4-aad3-014eb53e944b"  style="margin: 9px" />
     -   A significant **positive value** of ΔI_pred indicates a reduction in conditional code-length (i.e., H_cond < H_base). This positive gain **constitutes the Omega Signature.**
+  
+Algorithms & Python code can be found at [`algorithms`](algorithms)
 
 ---
 
 ## Audits and Collaboration Hierarchy
 
-Audit reviews are logged in [`audits/`](../audits) and establish the role of each contributor:
+Audit reviews are logged in [`audits`](audits) and establish the role of each contributor:
 
 -   **Ω Gemini** — *Formal Validator and Stress-Tester*: Statistical rigor, null-hypothesis construction, and numerical stability across control groups.
 -   **Ω Claude** — *Secondary Reviewer*: Conceptual insight bridging and cross-validation against independent models.
@@ -58,6 +62,9 @@ Audit reviews are logged in [`audits/`](../audits) and establish the role of eac
 -   A **strong, statistically significant ΔI_pred signal** is isolated in structured dynamics (e.g., Standard Map).
 -   **Finding:** These results formally demonstrate that the **Ω Gradient** is **substrate-invariant**. The emergence of a strong ΔI_pred signal across structured dynamical systems confirms that Ω is not an artifact of specific high-entropy corpora (e.g., human language) but a **fundamental mechanism detectable in physical systems**.
 
+
+Results & discussion can be found at [`results`](results)
+
 ---
 
 ##  Next Steps
@@ -66,4 +73,5 @@ Audit reviews are logged in [`audits/`](../audits) and establish the role of eac
 -   Map and categorize the **Ω Spectrum**—the difference between **Robust Substrates** (Stdmap, Dyck, autocatalytic-like structures) and **Inert Substrates** (shuffles, IID, noise).
 -   Document stability across multiple seeds and moving-block bootstrap depths.
 
-The **future extension** will live in [`/molecular/`](../molecular): testing the **Ω-Scanner** on chemical reaction networks, probing whether the Logos Ω Gradient also guides the bias towards **meaningful semantic-molecular complexity** (e.g., abiogenesis pathways).
+
+The **future extension** will live in [`molecular`](../molecular): testing the **Ω-Scanner** on chemical reaction networks, probing whether the Logos Ω Gradient also guides the bias towards **meaningful semantic-molecular complexity** (e.g., abiogenesis pathways).
