@@ -4,21 +4,45 @@
 
 ---
 
-## 🚧 **PROJECT STATUS: Ω-SCANNER VALIDATION** 🚧
+# DATA RELEASE: Ω-SCANNER MODEL MAPPING PHASE
 
-The core team is currently focused on the **Synthetic Ω-Testbed** phase.
+The complete dataset from the Synthetic Validation Suite (SVS) Phase  is currently being ingested into the dedicated mapping/synthetic repository. This release validates the Ω-Scanner Statistical Methodology for substrate-invariance and structural hierarchy detection across 9 canonical dynamical systems.
 
-We are in the final stages of **publishing the initial codebase and simulation results** from the first phase of the Ω-Scanner's validation.
+Each system below was subjected to 64 independent Ω-map runs against the 
+​  Global Shuffle, Block Shuffle, and Label Permutation controls.
 
-### Immediate Focus:
+## 9 Synthetic Systems in Release:
 
-1.  **Codebase Upload:** Finalizing the structure and documentation for the Python implementation of the **Symbolic Scanner Statistical Methodology** (predictive information gain via Information Bottleneck clustering).
-2.  **Synthetic Results Publication:** Uploading the complete findings, including entropy data and measurements, confirming the Ω-Gradient's **substrate-invariance** across structured synthetic dynamical systems (e.g., Standard Map, 1D Ising Model).
-3.  **Documentation:** Populating the dedicated [`synthetic`](synthetic) sub-repository with the full project primer and technical details.
+- Lorenz Attractor (lorenz63)
 
-Please check the **`synthetic/`** sub-repository for the formal project documentation and data in the coming days.
+- Standard Map (standard_map)
 
-Upon publication of these core findings, development will shift to the **Molecular Ω-Scanner** phase, probing Ω bias in chemical reaction networks.
+- Arnold Cat Map (arnold_cat)
+
+- Logistic Map (logistic)
+
+- Hénon Map (henon)
+
+- Hénon-Heiles Hamiltonian (hamiltonian)
+
+- Relativistic Aberration (rel_aberration)
+
+- 1D Ising Model (ising1d)
+
+- 2D Ising Model (ising2d_fixed)
+
+---
+
+Deliverables Per Function:
+Raw Data: `features_<function>.csv/.json` (Raw ΔΩ metric output for all 64 runs)
+
+Summary Data: `summary_<function>.json` (Consolidated statistical metrics: Mean, Median, σ, and fit parameters)
+
+Distribution Plots: `<function>focus_64.jpg` (Visual distribution of the ΔΩ effect across the 64 runs - top 32)
+
+## Action
+
+Please monitor the [`mapping`](mapping) path. Full data ingestion is expected to complete within the next 72 hours.
 
 ---
 
