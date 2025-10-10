@@ -72,4 +72,3 @@ The Ω-Scanner Synthetic Validation Suite provides **complete experimental closu
 From chaos to order, from noise to meaning, every dataset followed this invariant law.
 These results constitute the **first full empirical demonstration** that semantic information behaves as a physical gradient — measurable, reproducible, and substrate-independent.
 
-** Validation complete — Ω confirmed.**
