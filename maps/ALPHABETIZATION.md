@@ -132,16 +132,16 @@ This purely statistical criterion, independent of physical interpretation, ancho
 
 ### Final statement
 
-> **Predictive-Value-from-Alphabetization Theorem (empirical form).**
-> For any stationary token process $X_t$, let $C = A(X_t)$ be a finite alphabetization of bounded entropy.
-> Then
-> $$
-> \mathbb{E}[\Delta_{IB}] = \mathbb{E}[H_{\text{base}} - H_{\text{IB}}]
-> = I(C; X_{t+\tau}) - \lambda,I(C; X_t),
-> $$
-> with $\lambda \in (0,1)$ determined by the compression rate.
-> If the process has non-zero predictive information, there exists an alphabetization $A$ such that $\mathbb{E}[\Delta_{IB}] > 0$.
-> Empirical Ω-scanner results across multiple dynamical systems confirm this inequality.
+ **Predictive-Value-from-Alphabetization Theorem (empirical form).**
+ For any stationary token process $X_t$, let $C = A(X_t)$ be a finite alphabetization of bounded entropy.
+ Then
+ $$
+ \mathbb{E}[\Delta_{IB}] = \mathbb{E}[H_{\text{base}} - H_{\text{IB}}]
+ = I(C; X_{t+\tau}) - \lambda,I(C; X_t),
+ $$
+ with $\lambda \in (0,1)$ determined by the compression rate.
+ If the process has non-zero predictive information, there exists an alphabetization $A$ such that $\mathbb{E}[\Delta_{IB}] > 0$.
+ Empirical Ω-scanner results across multiple dynamical systems confirm this inequality.
 
 ---
 
