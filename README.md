@@ -9,9 +9,9 @@
 The complete dataset from the Synthetic Validation Suite (SVS) Phase  is currently being ingested into the dedicated mapping/synthetic repository. This release validates the Ω-Scanner Statistical Methodology for substrate-invariance and structural hierarchy detection across 9 canonical dynamical systems.
 
 Each system below was subjected to 64 independent Ω-map runs against the 
-​  Global Shuffle, Block Shuffle, and Label Permutation controls.
+​  Global Shuffle and Block Shuffle.
 
-## 9 Synthetic Systems in Release:
+## Nine Synthetic Systems in Release:
 
 - Lorenz Attractor (lorenz63)
 
@@ -34,17 +34,11 @@ Each system below was subjected to 64 independent Ω-map runs against the
 ---
 
 Deliverables Per Function:
-Raw Data: `features_<function>.csv/.json` (Raw ΔΩ metric output for all 64 runs)
+Raw Data: Raw ΔΩ metric output for all 64 runs  
+Summary Data: Consolidated statistical metrics: Mean, Median, σ, and fit parameters  
+Distribution Plots: Visual distribution of the ΔΩ effect across the 64 runs
 
-Summary Data: `summary_<function>.json` (Consolidated statistical metrics: Mean, Median, σ, and fit parameters)
-
-Distribution Plots: `<function>focus_64.jpg` (Visual distribution of the ΔΩ effect across the 64 runs - top 32)
-
-## Action
-
-Please monitor the [`mapping`](mapping) path. Full data ingestion is expected to complete within the next 72 hours.
-
----
+Repo Location: [`mapps`](maps) path.
 
 Thank you for your patience and interest in the scientific validation of LOG.
 
