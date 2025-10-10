@@ -2,11 +2,13 @@
 
 **Type:** Continuous 3-dimensional deterministic system
 **Equations:**
-[
+
+$$  
 \dot{x} = \sigma(y - x), \quad
 \dot{y} = x(\rho - z) - y, \quad
 \dot{z} = xy - \beta z
-]
+$$
+
 **Signature:** Classic *strange attractor* — bounded but non-periodic.
 **Entropy / Predictive Structure:**
 
@@ -20,10 +22,12 @@
 ## 2. Standard Map (`standard_map`)
 
 **Type:** Area-preserving discrete map on the torus
-[
+
+$$
 p_{t+1} = p_t + K \sin(\theta_t), \quad
 \theta_{t+1} = \theta_t + p_{t+1} \pmod{2\pi}
-]
+$$
+
 **Signature:** Mixed chaotic–regular phase space; quasi-periodic tori + stochastic sea.
 **Entropy / Predictive Structure:**
 
@@ -37,11 +41,26 @@ p_{t+1} = p_t + K \sin(\theta_t), \quad
 ## 3. Arnold Cat Map (`arnold_cat`)
 
 **Type:** Linear hyperbolic automorphism on the 2-torus
-[
-\begin{pmatrix} x_{t+1}\y_{t+1}\end{pmatrix}
-= A \begin{pmatrix} x_t\y_t \end{pmatrix} \bmod 1,\quad
-A=\begin{pmatrix}2&1\1&1\end{pmatrix}
-]
+
+$$
+\begin{pmatrix}
+x_{t+1} \\
+y_{t+1}
+\end{pmatrix}
+= A
+\begin{pmatrix}
+x_t \\
+y_t
+\end{pmatrix}
+\bmod 1,
+\quad
+A =
+\begin{pmatrix}
+2 & 1 \\
+1 & 1
+\end{pmatrix}
+$$
+
 **Signature:** Fully chaotic but *structurally exact*; preserves area and entropy.
 **Entropy / Predictive Structure:**
 
@@ -54,9 +73,11 @@ A=\begin{pmatrix}2&1\1&1\end{pmatrix}
 ## 4. Logistic Map (`logistic`)
 
 **Type:** One-dimensional iterative map
-[
+
+$$
 x_{t+1} = r x_t (1 - x_t)
-]
+$$
+
 **Signature:** Bifurcation cascade from fixed point → periodic → chaos.
 **Entropy / Predictive Structure:**
 
@@ -70,9 +91,11 @@ x_{t+1} = r x_t (1 - x_t)
 ## 5. Hénon Map (`henon`)
 
 **Type:** 2-D dissipative discrete system
-[
+
+$$
 x_{t+1} = 1 - a x_t^2 + y_t,\quad y_{t+1} = b x_t
-]
+$$
+
 **Signature:** Strange attractor; folding-stretching dynamics.
 **Entropy / Predictive Structure:**
 
@@ -85,9 +108,11 @@ x_{t+1} = 1 - a x_t^2 + y_t,\quad y_{t+1} = b x_t
 ## 6. Hénon–Heiles Hamiltonian (`hamiltonian`)
 
 **Type:** Nonlinear Hamiltonian system with mixed regular and chaotic regions
-[
-H = \tfrac12(p_x^2+p_y^2) + \tfrac12(x^2+y^2) + x^2 y - \tfrac13 y^3
-]
+
+$$
+H = \tfrac12(p_x^2+p_y^2) + \tfrac12(x^2+ y^2) + x^2 y - \tfrac13 y^3
+$$
+
 **Signature:** Transition to chaos as total energy increases.
 **Entropy / Predictive Structure:**
 
@@ -100,9 +125,11 @@ H = \tfrac12(p_x^2+p_y^2) + \tfrac12(x^2+y^2) + x^2 y - \tfrac13 y^3
 ## 7. Relativistic Aberration (`rel_aberration`)
 
 **Type:** Deterministic transformation of direction cosines under velocity addition
-[
+
+$$
 \cos\theta' = \frac{\cos\theta - \beta}{1 - \beta \cos\theta}
-]
+$$
+
 **Signature:** Smooth nonlinear mapping, no intrinsic chaos but strong nonlinearity.
 **Entropy / Predictive Structure:**
 
@@ -115,9 +142,11 @@ H = \tfrac12(p_x^2+p_y^2) + \tfrac12(x^2+y^2) + x^2 y - \tfrac13 y^3
 ## 8. 1-D Ising Model (`ising1d`)
 
 **Type:** Stochastic spin chain with nearest-neighbor coupling
-[
+
+$$
 P({s_i}) \propto e^{\beta \sum_i s_i s_{i+1}}
-]
+$$
+
 **Signature:** Markov order 1; no long-range correlations.
 **Entropy / Predictive Structure:**
 
@@ -139,7 +168,7 @@ P({s_i}) \propto e^{\beta \sum_i s_i s_{i+1}}
 
 ---
 
-### 🧩 Summary Table
+###  Summary Table
 
 | Model           |    Dim.   |  Determinism  | Chaos/Order Type             | Expected ΔIB | Role in Suite               |
 | :-------------- | :-------: | :-----------: | :--------------------------- | :----------: | :-------------------------- |
@@ -155,7 +184,7 @@ P({s_i}) \propto e^{\beta \sum_i s_i s_{i+1}}
 
 ---
 
-🟩 **Summary narrative**
+ **Summary narrative**
 
 Together these nine canonical systems span the full topology of *information organization*:
 from smooth deterministic chaos (Lorenz, Hénon) through mixed maps (Standard, Hénon–Heiles, Arnold) to purely stochastic ensembles (Ising).
