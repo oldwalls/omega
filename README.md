@@ -38,13 +38,14 @@ Raw Data: Raw ΔΩ metric output for all 64 runs
 Summary Data: Consolidated statistical metrics: Mean, Median, σ, and fit parameters  
 Distribution Plots: Visual distribution of the ΔΩ effect across the 64 runs
 
-Repo Location: [`mapps`](maps) path.
+Repo Location: [`maps`](maps)
+
+Initial Testing - single runs: [`synthetic`](synthetic) 
 
 Thank you for your patience and interest in the scientific validation of LOG.
 
 ---
-
-<img height="400" src="https://github.com/oldwalls/omega/blob/main/images/ABSTRACT.png">  
+<img width="420" alt="image" src="https://github.com/user-attachments/assets/3718558f-f7fb-4e6d-a887-9b87bc2baa82" />
 
 ---
 
