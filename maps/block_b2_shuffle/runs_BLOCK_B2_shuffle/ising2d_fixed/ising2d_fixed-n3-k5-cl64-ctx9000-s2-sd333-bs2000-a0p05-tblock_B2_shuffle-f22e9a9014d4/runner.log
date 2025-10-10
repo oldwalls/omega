@@ -1,0 +1,40 @@
+$ C:\Users\KOMFIG\anaconda3\python.exe -m cli analyze-cond --train C:\omega\omega\corpora\ising2d_T2269_L64\ising2d_T2269_L64_train.txt --holdout C:\omega\omega\corpora\ising2d_T2269_L64\ising2d_T2269_L64_tail.txt --mode words --label-mode ib --control block --control_block 2 --n 3 --k_ctx 5 --ib-clusters 64 --ib-max-contexts 9000 --stride 2 --seed 333 --bootstrap 2000 --alpha 0.05 --out-json C:\omega\omega\runs\ising2d_fixed\ising2d_fixed-n3-k5-cl64-ctx9000-s2-sd333-bs2000-a0p05-tblock_B2_shuffle-f22e9a9014d4\ising2d_fixed-n3-k5-cl64-ctx9000-s2-sd333-bs2000-a0p05-tblock_B2_shuffle-f22e9a9014d4.json
+
+[hint] IB coverage is very low; consider --k_ctx 3 or --ib-clusters 16, or lower --ib-max-contexts.
+[control] ctrl-block-2-333  train_sha=37924c2d7498  test_sha=23589b99d5d3  Ztest_sha=e97af8233cdc
+{
+  "H_base": 4.053112485471107,
+  "H_ib": 4.055949167466829,
+  "H_hash": 4.077192622813706,
+  "delta_ib": {
+    "mean": 0.0028366819957213415,
+    "lo95": -0.00030415968295739726,
+    "hi95": 0.0074639658708617095,
+    "p_le_0": 0.0585
+  },
+  "delta_hash": {
+    "mean": 0.024080137342598253,
+    "lo95": 0.004032665979975757,
+    "hi95": 0.04227898216238933,
+    "p_le_0": 0.011
+  },
+  "k_ctx": 5,
+  "ib_clusters": 64,
+  "stride": 2,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 64,
+  "n_gram_order": 3,
+  "coverage_train": {
+    "full_frac": 0.09113642678521812,
+    "backoff_frac": 0.9088635732147818,
+    "null_frac": 0.0002778549597110308
+  },
+  "coverage_test": {
+    "full_frac": 0.0,
+    "backoff_frac": 1.0,
+    "null_frac": 0.002506265664160401
+  },
+  "control": "block",
+  "control_tag": "ctrl-block-2-333"
+}

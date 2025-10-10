@@ -1,0 +1,20 @@
+{
+  "model": "hamiltonian",
+  "params": {
+    "n": 4,
+    "k_ctx": 5,
+    "ib_clusters": 32,
+    "stride": 1,
+    "seed": 111,
+    "ib_max_contexts": 6000,
+    "bootstrap": 2000,
+    "alpha": 0.05
+  },
+  "tag": "hamiltonian-n4-k5-cl32-ctx6000-s1-sd111-bs2000-a0p05-8291c8a4956b",
+  "run_id": "8291c8a4956b",
+  "duration_s": 4.777,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\hamiltonian\\hamiltonian-n4-k5-cl32-ctx6000-s1-sd111-bs2000-a0p05-8291c8a4956b\\hamiltonian-n4-k5-cl32-ctx6000-s1-sd111-bs2000-a0p05-8291c8a4956b.json"
+}

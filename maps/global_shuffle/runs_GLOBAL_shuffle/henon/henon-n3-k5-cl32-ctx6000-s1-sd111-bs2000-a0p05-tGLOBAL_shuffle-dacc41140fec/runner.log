@@ -1,0 +1,40 @@
+$ C:\Users\KOMFIG\anaconda3\python.exe -m cli analyze-cond --train C:\omega\omega\corpora\henon_a14_b03\henon_a14_b03_train.txt --holdout C:\omega\omega\corpora\henon_a14_b03\henon_a14_b03_tail.txt --mode words --label-mode ib --control global --n 3 --k_ctx 5 --ib-clusters 32 --ib-max-contexts 6000 --stride 1 --seed 111 --bootstrap 2000 --alpha 0.05 --out-json C:\omega\omega\runs\henon\henon-n3-k5-cl32-ctx6000-s1-sd111-bs2000-a0p05-tGLOBAL_shuffle-dacc41140fec\henon-n3-k5-cl32-ctx6000-s1-sd111-bs2000-a0p05-tGLOBAL_shuffle-dacc41140fec.json
+
+[hint] IB coverage is very low; consider --k_ctx 3 or --ib-clusters 16, or lower --ib-max-contexts.
+[control] ctrl-global-111  train_sha=e1fb9ecc3c2f  test_sha=942e574d4a6c  Ztest_sha=c27bb503f202
+{
+  "H_base": 5.290531496748666,
+  "H_ib": 5.289946534247945,
+  "H_hash": 5.0209153599548815,
+  "delta_ib": {
+    "mean": -0.0005849625007211561,
+    "lo95": -0.0014046676430929223,
+    "hi95": 0.0,
+    "p_le_0": 1.0
+  },
+  "delta_hash": {
+    "mean": -0.26961613679378466,
+    "lo95": -0.29426682890524236,
+    "hi95": -0.24399131296192392,
+    "p_le_0": 1.0
+  },
+  "k_ctx": 5,
+  "ib_clusters": 32,
+  "stride": 1,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 32,
+  "n_gram_order": 3,
+  "coverage_train": {
+    "full_frac": 0.07001944984717977,
+    "backoff_frac": 0.9299805501528202,
+    "null_frac": 0.0002778549597110308
+  },
+  "coverage_test": {
+    "full_frac": 0.0005012531328320802,
+    "backoff_frac": 0.9994987468671679,
+    "null_frac": 0.002506265664160401
+  },
+  "control": "global",
+  "control_tag": "ctrl-global-111"
+}

@@ -1,0 +1,39 @@
+$ C:\Users\KOMFIG\anaconda3\python.exe -m cli analyze-cond --train C:\omega\omega\corpora\lorenz_sigma10_rho28\lorenz_sigma10_rho28_train.txt --holdout C:\omega\omega\corpora\lorenz_sigma10_rho28\lorenz_sigma10_rho28_tail.txt --mode words --label-mode ib --control block --control_block 2 --n 3 --k_ctx 5 --ib-clusters 64 --ib-max-contexts 9000 --stride 1 --seed 111 --bootstrap 2000 --alpha 0.05 --out-json C:\omega\omega\runs\lorenz63\lorenz63-n3-k5-cl64-ctx9000-s1-sd111-bs2000-a0p05-tblock_B2_shuffle-a9dfb46ca3fd\lorenz63-n3-k5-cl64-ctx9000-s1-sd111-bs2000-a0p05-tblock_B2_shuffle-a9dfb46ca3fd.json
+
+[control] ctrl-block-2-111  train_sha=4aaef41c9870  test_sha=1c478daddb4a  Ztest_sha=63154a5407ac
+{
+  "H_base": 2.5699526488454447,
+  "H_ib": 2.5677819235243855,
+  "H_hash": 2.5676237468594425,
+  "delta_ib": {
+    "mean": -0.0021707253210592227,
+    "lo95": -0.012039508673022581,
+    "hi95": 0.0064991265176592514,
+    "p_le_0": 0.678
+  },
+  "delta_hash": {
+    "mean": -0.0023289019860019255,
+    "lo95": -0.023863556767308267,
+    "hi95": 0.018374015672363814,
+    "p_le_0": 0.5945
+  },
+  "k_ctx": 5,
+  "ib_clusters": 64,
+  "stride": 1,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 64,
+  "n_gram_order": 3,
+  "coverage_train": {
+    "full_frac": 0.15109752709085858,
+    "backoff_frac": 0.8489024729091414,
+    "null_frac": 0.0002778549597110308
+  },
+  "coverage_test": {
+    "full_frac": 0.07468671679197995,
+    "backoff_frac": 0.9253132832080201,
+    "null_frac": 0.002506265664160401
+  },
+  "control": "block",
+  "control_tag": "ctrl-block-2-111"
+}

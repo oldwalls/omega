@@ -1,0 +1,20 @@
+{
+  "model": "logistic",
+  "params": {
+    "n": 3,
+    "k_ctx": 5,
+    "ib_clusters": 64,
+    "stride": 1,
+    "seed": 333,
+    "ib_max_contexts": 6000,
+    "bootstrap": 2000,
+    "alpha": 0.05
+  },
+  "tag": "logistic-n3-k5-cl64-ctx6000-s1-sd333-bs2000-a0p05-f14baaa72568",
+  "run_id": "f14baaa72568",
+  "duration_s": 8.707,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\logistic\\logistic-n3-k5-cl64-ctx6000-s1-sd333-bs2000-a0p05-f14baaa72568\\logistic-n3-k5-cl64-ctx6000-s1-sd333-bs2000-a0p05-f14baaa72568.json"
+}

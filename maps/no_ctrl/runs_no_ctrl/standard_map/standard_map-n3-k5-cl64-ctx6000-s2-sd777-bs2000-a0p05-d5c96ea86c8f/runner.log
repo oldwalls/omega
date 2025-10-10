@@ -1,0 +1,2 @@
+$ C:\Users\KOMFIG\anaconda3\python.exe -m cli analyze-cond --train C:\omega\omega\corpora\stdmap\stdmap_train.txt --holdout C:\omega\omega\corpora\stdmap\stdmap_tail.txt --mode words --label-mode ib --n 3 --k_ctx 5 --ib-clusters 64 --ib-max-contexts 6000 --stride 2 --seed 777 --bootstrap 2000 --alpha 0.05 --out-json C:\omega\omega\runs\standard_map\standard_map-n3-k5-cl64-ctx6000-s2-sd777-bs2000-a0p05-d5c96ea86c8f\standard_map-n3-k5-cl64-ctx6000-s2-sd777-bs2000-a0p05-d5c96ea86c8f.json
+

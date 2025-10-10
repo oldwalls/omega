@@ -1,0 +1,21 @@
+{
+  "model": "arnold_cat",
+  "params": {
+    "n": 3,
+    "k_ctx": 5,
+    "ib_clusters": 64,
+    "stride": 1,
+    "seed": 111,
+    "ib_max_contexts": 6000,
+    "bootstrap": 2000,
+    "alpha": 0.05,
+    "tag": "block_B2_shuffle"
+  },
+  "tag": "arnold_cat-n3-k5-cl64-ctx6000-s1-sd111-bs2000-a0p05-tblock_B2_shuffle-be710cf0e9df",
+  "run_id": "be710cf0e9df",
+  "duration_s": 41.219,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\arnold_cat\\arnold_cat-n3-k5-cl64-ctx6000-s1-sd111-bs2000-a0p05-tblock_B2_shuffle-be710cf0e9df\\arnold_cat-n3-k5-cl64-ctx6000-s1-sd111-bs2000-a0p05-tblock_B2_shuffle-be710cf0e9df.json"
+}

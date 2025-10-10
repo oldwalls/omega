@@ -1,0 +1,20 @@
+{
+  "model": "rel_aberration",
+  "params": {
+    "n": 4,
+    "k_ctx": 7,
+    "ib_clusters": 32,
+    "stride": 2,
+    "seed": 333,
+    "ib_max_contexts": 6000,
+    "bootstrap": 2000,
+    "alpha": 0.05
+  },
+  "tag": "rel_aberration-n4-k7-cl32-ctx6000-s2-sd333-bs2000-a0p05-bb8f620e73ea",
+  "run_id": "bb8f620e73ea",
+  "duration_s": 130.437,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\rel_aberration\\rel_aberration-n4-k7-cl32-ctx6000-s2-sd333-bs2000-a0p05-bb8f620e73ea\\rel_aberration-n4-k7-cl32-ctx6000-s2-sd333-bs2000-a0p05-bb8f620e73ea.json"
+}

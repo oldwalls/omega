@@ -1,0 +1,21 @@
+{
+  "model": "ising1d",
+  "params": {
+    "n": 4,
+    "k_ctx": 5,
+    "ib_clusters": 64,
+    "stride": 1,
+    "seed": 111,
+    "ib_max_contexts": 6000,
+    "bootstrap": 2000,
+    "alpha": 0.05,
+    "tag": "GLOBAL_shuffle"
+  },
+  "tag": "ising1d-n4-k5-cl64-ctx6000-s1-sd111-bs2000-a0p05-tGLOBAL_shuffle-245798148914",
+  "run_id": "245798148914",
+  "duration_s": 174.781,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\ising1d\\ising1d-n4-k5-cl64-ctx6000-s1-sd111-bs2000-a0p05-tGLOBAL_shuffle-245798148914\\ising1d-n4-k5-cl64-ctx6000-s1-sd111-bs2000-a0p05-tGLOBAL_shuffle-245798148914.json"
+}

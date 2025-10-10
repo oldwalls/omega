@@ -1,0 +1,20 @@
+{
+  "model": "lorenz63",
+  "params": {
+    "n": 3,
+    "k_ctx": 5,
+    "ib_clusters": 64,
+    "stride": 2,
+    "seed": 111,
+    "ib_max_contexts": 9000,
+    "bootstrap": 2000,
+    "alpha": 0.05
+  },
+  "tag": "lorenz63-n3-k5-cl64-ctx9000-s2-sd111-bs2000-a0p05-8508d615ec12",
+  "run_id": "8508d615ec12",
+  "duration_s": 7.139,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\lorenz63\\lorenz63-n3-k5-cl64-ctx9000-s2-sd111-bs2000-a0p05-8508d615ec12\\lorenz63-n3-k5-cl64-ctx9000-s2-sd111-bs2000-a0p05-8508d615ec12.json"
+}

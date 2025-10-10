@@ -1,0 +1,39 @@
+$ C:\Users\KOMFIG\anaconda3\python.exe -m cli analyze-cond --train C:\omega\omega\corpora\relab\relab_train.txt --holdout C:\omega\omega\corpora\relab\relab_tail.txt --mode words --label-mode ib --control block --control_block 2 --n 4 --k_ctx 5 --ib-clusters 32 --ib-max-contexts 9000 --stride 2 --seed 333 --bootstrap 2000 --alpha 0.05 --out-json C:\omega\omega\runs\rel_aberration\rel_aberration-n4-k5-cl32-ctx9000-s2-sd333-bs2000-a0p05-tblock_B2_shuffle-3567513077a9\rel_aberration-n4-k5-cl32-ctx9000-s2-sd333-bs2000-a0p05-tblock_B2_shuffle-3567513077a9.json
+
+[control] ctrl-block-2-333  train_sha=63052822aad6  test_sha=5330d0f60139  Ztest_sha=53dfe318726d
+{
+  "H_base": 3.113939798480821,
+  "H_ib": 3.1148292697061155,
+  "H_hash": 3.1125536498594113,
+  "delta_ib": {
+    "mean": 0.0008894712252944398,
+    "lo95": 0.0006001212008828878,
+    "hi95": 0.0011541160765328774,
+    "p_le_0": 0.0
+  },
+  "delta_hash": {
+    "mean": -0.001386148621409689,
+    "lo95": -0.0031823999053190604,
+    "hi95": 0.00028784904068118424,
+    "p_le_0": 0.948
+  },
+  "k_ctx": 5,
+  "ib_clusters": 32,
+  "stride": 2,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 32,
+  "n_gram_order": 4,
+  "coverage_train": {
+    "full_frac": 0.48847055321998584,
+    "backoff_frac": 0.5115294467800141,
+    "null_frac": 3.720376502102013e-05
+  },
+  "coverage_test": {
+    "full_frac": 0.48962583557600486,
+    "backoff_frac": 0.5103741644239952,
+    "null_frac": 8.681309141418526e-05
+  },
+  "control": "block",
+  "control_tag": "ctrl-block-2-333"
+}

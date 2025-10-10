@@ -1,0 +1,20 @@
+{
+  "model": "ising2d_fixed",
+  "params": {
+    "n": 3,
+    "k_ctx": 7,
+    "ib_clusters": 32,
+    "stride": 2,
+    "seed": 333,
+    "ib_max_contexts": 6000,
+    "bootstrap": 2000,
+    "alpha": 0.05
+  },
+  "tag": "ising2d_fixed-n3-k7-cl32-ctx6000-s2-sd333-bs2000-a0p05-5058c5a15aad",
+  "run_id": "5058c5a15aad",
+  "duration_s": 30.992,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\ising2d_fixed\\ising2d_fixed-n3-k7-cl32-ctx6000-s2-sd333-bs2000-a0p05-5058c5a15aad\\ising2d_fixed-n3-k7-cl32-ctx6000-s2-sd333-bs2000-a0p05-5058c5a15aad.json"
+}

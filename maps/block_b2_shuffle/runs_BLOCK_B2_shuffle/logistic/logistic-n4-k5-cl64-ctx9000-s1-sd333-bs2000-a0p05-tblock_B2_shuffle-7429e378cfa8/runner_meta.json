@@ -1,0 +1,21 @@
+{
+  "model": "logistic",
+  "params": {
+    "n": 4,
+    "k_ctx": 5,
+    "ib_clusters": 64,
+    "stride": 1,
+    "seed": 333,
+    "ib_max_contexts": 9000,
+    "bootstrap": 2000,
+    "alpha": 0.05,
+    "tag": "block_B2_shuffle"
+  },
+  "tag": "logistic-n4-k5-cl64-ctx9000-s1-sd333-bs2000-a0p05-tblock_B2_shuffle-7429e378cfa8",
+  "run_id": "7429e378cfa8",
+  "duration_s": 41.189,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\logistic\\logistic-n4-k5-cl64-ctx9000-s1-sd333-bs2000-a0p05-tblock_B2_shuffle-7429e378cfa8\\logistic-n4-k5-cl64-ctx9000-s1-sd333-bs2000-a0p05-tblock_B2_shuffle-7429e378cfa8.json"
+}

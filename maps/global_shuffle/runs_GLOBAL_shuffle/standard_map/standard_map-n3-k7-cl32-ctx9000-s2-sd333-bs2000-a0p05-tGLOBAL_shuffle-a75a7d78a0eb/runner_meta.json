@@ -1,0 +1,21 @@
+{
+  "model": "standard_map",
+  "params": {
+    "n": 3,
+    "k_ctx": 7,
+    "ib_clusters": 32,
+    "stride": 2,
+    "seed": 333,
+    "ib_max_contexts": 9000,
+    "bootstrap": 2000,
+    "alpha": 0.05,
+    "tag": "GLOBAL_shuffle"
+  },
+  "tag": "standard_map-n3-k7-cl32-ctx9000-s2-sd333-bs2000-a0p05-tGLOBAL_shuffle-a75a7d78a0eb",
+  "run_id": "a75a7d78a0eb",
+  "duration_s": 161.703,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\standard_map\\standard_map-n3-k7-cl32-ctx9000-s2-sd333-bs2000-a0p05-tGLOBAL_shuffle-a75a7d78a0eb\\standard_map-n3-k7-cl32-ctx9000-s2-sd333-bs2000-a0p05-tGLOBAL_shuffle-a75a7d78a0eb.json"
+}

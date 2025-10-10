@@ -1,0 +1,20 @@
+{
+  "model": "hamiltonian",
+  "params": {
+    "n": 3,
+    "k_ctx": 7,
+    "ib_clusters": 32,
+    "stride": 2,
+    "seed": 111,
+    "ib_max_contexts": 9000,
+    "bootstrap": 2000,
+    "alpha": 0.05
+  },
+  "tag": "hamiltonian-n3-k7-cl32-ctx9000-s2-sd111-bs2000-a0p05-35c70d28fdef",
+  "run_id": "35c70d28fdef",
+  "duration_s": 6.155,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\hamiltonian\\hamiltonian-n3-k7-cl32-ctx9000-s2-sd111-bs2000-a0p05-35c70d28fdef\\hamiltonian-n3-k7-cl32-ctx9000-s2-sd111-bs2000-a0p05-35c70d28fdef.json"
+}

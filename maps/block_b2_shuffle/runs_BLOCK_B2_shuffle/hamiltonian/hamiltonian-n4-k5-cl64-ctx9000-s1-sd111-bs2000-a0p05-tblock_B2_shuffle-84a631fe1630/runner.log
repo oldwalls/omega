@@ -1,0 +1,39 @@
+$ C:\Users\KOMFIG\anaconda3\python.exe -m cli analyze-cond --train C:\omega\omega\corpora\ham\ham_train.txt --holdout C:\omega\omega\corpora\ham\ham_tail.txt --mode words --label-mode ib --control block --control_block 2 --n 4 --k_ctx 5 --ib-clusters 64 --ib-max-contexts 9000 --stride 1 --seed 111 --bootstrap 2000 --alpha 0.05 --out-json C:\omega\omega\runs\hamiltonian\hamiltonian-n4-k5-cl64-ctx9000-s1-sd111-bs2000-a0p05-tblock_B2_shuffle-84a631fe1630\hamiltonian-n4-k5-cl64-ctx9000-s1-sd111-bs2000-a0p05-tblock_B2_shuffle-84a631fe1630.json
+
+[control] ctrl-block-2-111  train_sha=3a2c428e438c  test_sha=e010ee54e0ab  Ztest_sha=d88b2b4781fc
+{
+  "H_base": 5.955651825158045,
+  "H_ib": 5.950628429258996,
+  "H_hash": 5.947410191005525,
+  "delta_ib": {
+    "mean": -0.005023395899047849,
+    "lo95": -0.013543111563772954,
+    "hi95": -0.0002309520521584094,
+    "p_le_0": 1.0
+  },
+  "delta_hash": {
+    "mean": -0.008241634152519637,
+    "lo95": -0.018602652071225682,
+    "hi95": 0.0002163224331273559,
+    "p_le_0": 0.972
+  },
+  "k_ctx": 5,
+  "ib_clusters": 64,
+  "stride": 1,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 64,
+  "n_gram_order": 4,
+  "coverage_train": {
+    "full_frac": 0.1783828841344818,
+    "backoff_frac": 0.8216171158655182,
+    "null_frac": 0.0002778549597110308
+  },
+  "coverage_test": {
+    "full_frac": 0.08922305764411027,
+    "backoff_frac": 0.9107769423558897,
+    "null_frac": 0.002506265664160401
+  },
+  "control": "block",
+  "control_tag": "ctrl-block-2-111"
+}

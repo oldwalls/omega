@@ -1,0 +1,40 @@
+$ C:\Users\KOMFIG\anaconda3\python.exe -m cli analyze-cond --train C:\omega\omega\corpora\stdmap\stdmap_train.txt --holdout C:\omega\omega\corpora\stdmap\stdmap_tail.txt --mode words --label-mode ib --n 3 --k_ctx 7 --ib-clusters 64 --ib-max-contexts 9000 --stride 1 --seed 111 --bootstrap 2000 --alpha 0.05 --out-json C:\omega\omega\runs\standard_map\standard_map-n3-k7-cl64-ctx9000-s1-sd111-bs2000-a0p05-4687557aa54b\standard_map-n3-k7-cl64-ctx9000-s1-sd111-bs2000-a0p05-4687557aa54b.json
+
+50/2000 100/2000 150/2000 200/2000 250/2000 300/2000 350/2000 400/2000 450/2000 500/2000 550/2000 600/2000 650/2000 700/2000 750/2000 800/2000 850/2000 900/2000 950/2000 1000/2000 1050/2000 1100/2000 1150/2000 1200/2000 1250/2000 1300/2000 1350/2000 1400/2000 1450/2000 1500/2000 1550/2000 1600/2000 1650/2000 1700/2000 1750/2000 1800/2000 1850/2000 1900/2000 1950/2000 2000/2000 50/2000 100/2000 150/2000 200/2000 250/2000 300/2000 350/2000 400/2000 450/2000 500/2000 550/2000 600/2000 650/2000 700/2000 750/2000 800/2000 850/2000 900/2000 950/2000 1000/2000 1050/2000 1100/2000 1150/2000 1200/2000 1250/2000 1300/2000 1350/2000 1400/2000 1450/2000 1500/2000 1550/2000 1600/2000 1650/2000 1700/2000 1750/2000 1800/2000 1850/2000 1900/2000 1950/2000 2000/2000 {
+  "H_base": 1.841926414935292,
+  "H_ib": 1.7893849104686856,
+  "H_hash": 2.0796809342930263,
+  "delta_ib": {
+    "mean": -0.05254150446660631,
+    "lo95": -0.056838219558864034,
+    "hi95": -0.048401048365280655,
+    "p_le_0": 1.0
+  },
+  "delta_hash": {
+    "mean": 0.23775451935773434,
+    "lo95": 0.2318343588855286,
+    "hi95": 0.24401434135333971,
+    "p_le_0": 0.0
+  },
+  "k_ctx": 7,
+  "ib_clusters": 64,
+  "stride": 1,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 64,
+  "n_gram_order": 3,
+  "coverage_train": {
+    "full_frac": 0.973803888701052,
+    "backoff_frac": 0.026196111298948062,
+    "null_frac": 3.333444448148272e-05
+  },
+  "coverage_test": {
+    "full_frac": 0.4628137744046759,
+    "backoff_frac": 0.537186225595324,
+    "null_frac": 7.778382763103797e-05
+  },
+  "notes": "Bits/token. delta<0 means conditional helps. Hash control preserves label histogram."
+}
+
+[omega] summary (first variant):
+  tag=true  d_I_pred-=--0.052542  d_hash-=-0.237755  SCR_lzma-=-2.343e-06  energy=22424

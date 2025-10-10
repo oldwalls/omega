@@ -1,0 +1,20 @@
+{
+  "model": "standard_map",
+  "params": {
+    "n": 3,
+    "k_ctx": 7,
+    "ib_clusters": 32,
+    "ib_max_contexts": 6000,
+    "stride": 2,
+    "seed": 222,
+    "bootstrap": 2000,
+    "alpha": 0.05
+  },
+  "tag": "standard_map-n3-k7-cl32-ctx6000-s2-sd222-bs2000-a0p05-c08e8bae1903",
+  "run_id": "c08e8bae1903",
+  "duration_s": 163.448,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\standard_map\\standard_map-n3-k7-cl32-ctx6000-s2-sd222-bs2000-a0p05-c08e8bae1903\\standard_map-n3-k7-cl32-ctx6000-s2-sd222-bs2000-a0p05-c08e8bae1903.json"
+}

@@ -1,0 +1,40 @@
+$ C:\Users\KOMFIG\anaconda3\python.exe -m cli analyze-cond --train C:\omega\omega\corpora\ham\ham_train.txt --holdout C:\omega\omega\corpora\ham\ham_tail.txt --mode words --label-mode ib --n 4 --k_ctx 7 --ib-clusters 32 --ib-max-contexts 6000 --stride 1 --seed 333 --bootstrap 2000 --alpha 0.05 --out-json C:\omega\omega\runs\hamiltonian\hamiltonian-n4-k7-cl32-ctx6000-s1-sd333-bs2000-a0p05-91b004374c66\hamiltonian-n4-k7-cl32-ctx6000-s1-sd333-bs2000-a0p05-91b004374c66.json
+
+[control] true  train_sha=60ad58bd86da  test_sha=e010ee54e0ab  Ztest_sha=29cf4dee54b2
+{
+  "H_base": 0.25993409155669034,
+  "H_ib": 0.2673526999158373,
+  "H_hash": 4.773932965470314,
+  "delta_ib": {
+    "mean": 0.00741860835914698,
+    "lo95": -0.00013435508081438707,
+    "hi95": 0.02235990025621088,
+    "p_le_0": 0.273
+  },
+  "delta_hash": {
+    "mean": 4.513998873913623,
+    "lo95": 4.455966334674035,
+    "hi95": 4.572752051142539,
+    "p_le_0": 0.0
+  },
+  "k_ctx": 7,
+  "ib_clusters": 32,
+  "stride": 1,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 32,
+  "n_gram_order": 4,
+  "coverage_train": {
+    "full_frac": 1.0,
+    "backoff_frac": 0.0,
+    "null_frac": 0.000389040182293114
+  },
+  "coverage_test": {
+    "full_frac": 1.0,
+    "backoff_frac": 0.0,
+    "null_frac": 0.0035122930255895636
+  },
+  "control": "none",
+  "control_tag": "true",
+  "notes": "Bits/token. delta<0 helps. Hash control preserves label histogram."
+}

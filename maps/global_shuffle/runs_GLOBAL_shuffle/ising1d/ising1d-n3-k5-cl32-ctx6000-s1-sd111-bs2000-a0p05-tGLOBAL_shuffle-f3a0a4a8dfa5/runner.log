@@ -1,0 +1,39 @@
+$ C:\Users\KOMFIG\anaconda3\python.exe -m cli analyze-cond --train C:\omega\omega\corpora\ising1d\ising1d_train.txt --holdout C:\omega\omega\corpora\ising1d\ising1d_tail.txt --mode words --label-mode ib --control global --n 3 --k_ctx 5 --ib-clusters 32 --ib-max-contexts 6000 --stride 1 --seed 111 --bootstrap 2000 --alpha 0.05 --out-json C:\omega\omega\runs\ising1d\ising1d-n3-k5-cl32-ctx6000-s1-sd111-bs2000-a0p05-tGLOBAL_shuffle-f3a0a4a8dfa5\ising1d-n3-k5-cl32-ctx6000-s1-sd111-bs2000-a0p05-tGLOBAL_shuffle-f3a0a4a8dfa5.json
+
+[control] ctrl-global-111  train_sha=064e39f16433  test_sha=2b5b37619f52  Ztest_sha=c52c8ba03da9
+{
+  "H_base": 3.0077488054697,
+  "H_ib": 3.0085883355523984,
+  "H_hash": 3.008340407435964,
+  "delta_ib": {
+    "mean": 0.0008395300826982008,
+    "lo95": 0.0004823209969151083,
+    "hi95": 0.0011819970125121401,
+    "p_le_0": 0.0
+  },
+  "delta_hash": {
+    "mean": 0.0005916019662641357,
+    "lo95": 0.0003092096236962895,
+    "hi95": 0.0008796329737562035,
+    "p_le_0": 0.001
+  },
+  "k_ctx": 5,
+  "ib_clusters": 32,
+  "stride": 1,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 32,
+  "n_gram_order": 3,
+  "coverage_train": {
+    "full_frac": 0.07907807328745922,
+    "backoff_frac": 0.9209219267125408,
+    "null_frac": 2.381009071644563e-05
+  },
+  "coverage_test": {
+    "full_frac": 0.055991999555530865,
+    "backoff_frac": 0.9440080004444691,
+    "null_frac": 5.555864214678593e-05
+  },
+  "control": "global",
+  "control_tag": "ctrl-global-111"
+}

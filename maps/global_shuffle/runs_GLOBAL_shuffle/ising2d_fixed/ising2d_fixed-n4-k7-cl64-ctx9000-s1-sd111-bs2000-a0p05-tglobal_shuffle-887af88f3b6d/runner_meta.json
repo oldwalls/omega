@@ -1,0 +1,21 @@
+{
+  "model": "ising2d_fixed",
+  "params": {
+    "n": 4,
+    "k_ctx": 7,
+    "ib_clusters": 64,
+    "stride": 1,
+    "seed": 111,
+    "ib_max_contexts": 9000,
+    "bootstrap": 2000,
+    "alpha": 0.05,
+    "tag": "global_shuffle"
+  },
+  "tag": "ising2d_fixed-n4-k7-cl64-ctx9000-s1-sd111-bs2000-a0p05-tglobal_shuffle-887af88f3b6d",
+  "run_id": "887af88f3b6d",
+  "duration_s": 38.056,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\ising2d_fixed\\ising2d_fixed-n4-k7-cl64-ctx9000-s1-sd111-bs2000-a0p05-tglobal_shuffle-887af88f3b6d\\ising2d_fixed-n4-k7-cl64-ctx9000-s1-sd111-bs2000-a0p05-tglobal_shuffle-887af88f3b6d.json"
+}

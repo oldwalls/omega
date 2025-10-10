@@ -1,0 +1,35 @@
+{
+  "H_base": 1.841926414935292,
+  "H_ib": 1.8190135108890908,
+  "H_hash": 1.9256894509035758,
+  "delta_ib": {
+    "mean": -0.02291290404620122,
+    "lo95": -0.025985492561918313,
+    "hi95": -0.01980095289525878,
+    "p_le_0": 1.0
+  },
+  "delta_hash": {
+    "mean": 0.08376303596828383,
+    "lo95": 0.07965486280807872,
+    "hi95": 0.0876778966862618,
+    "p_le_0": 0.0
+  },
+  "k_ctx": 5,
+  "ib_clusters": 32,
+  "stride": 2,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 32,
+  "n_gram_order": 3,
+  "coverage_train": {
+    "full_frac": 0.9981809090692636,
+    "backoff_frac": 0.001819090930736446,
+    "null_frac": 2.381009071644563e-05
+  },
+  "coverage_test": {
+    "full_frac": 0.9441635646424802,
+    "backoff_frac": 0.055836435357519865,
+    "null_frac": 5.555864214678593e-05
+  },
+  "notes": "Bits/token. delta<0 means conditional helps. Hash control preserves label histogram."
+}

@@ -1,0 +1,20 @@
+{
+  "model": "henon",
+  "params": {
+    "n": 4,
+    "k_ctx": 5,
+    "ib_clusters": 64,
+    "stride": 1,
+    "seed": 111,
+    "ib_max_contexts": 9000,
+    "bootstrap": 2000,
+    "alpha": 0.05
+  },
+  "tag": "henon-n4-k5-cl64-ctx9000-s1-sd111-bs2000-a0p05-b5f7f6a5ceef",
+  "run_id": "b5f7f6a5ceef",
+  "duration_s": 36.925,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\henon\\henon-n4-k5-cl64-ctx9000-s1-sd111-bs2000-a0p05-b5f7f6a5ceef\\henon-n4-k5-cl64-ctx9000-s1-sd111-bs2000-a0p05-b5f7f6a5ceef.json"
+}

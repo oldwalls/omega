@@ -1,0 +1,40 @@
+$ C:\Users\KOMFIG\anaconda3\python.exe -m cli analyze-cond --train C:\omega\omega\corpora\stdmap\stdmap_train.txt --holdout C:\omega\omega\corpora\stdmap\stdmap_tail.txt --mode words --label-mode ib --control block --control_block 2 --n 3 --k_ctx 5 --ib-clusters 32 --ib-max-contexts 6000 --stride 1 --seed 333 --bootstrap 2000 --alpha 0.05 --out-json C:\omega\omega\runs\standard_map\standard_map-n3-k5-cl32-ctx6000-s1-sd333-bs2000-a0p05-tblock_B2_shuffle-825e3cf4f87a\standard_map-n3-k5-cl32-ctx6000-s1-sd333-bs2000-a0p05-tblock_B2_shuffle-825e3cf4f87a.json
+
+[hint] IB coverage is very low; consider --k_ctx 3 or --ib-clusters 16, or lower --ib-max-contexts.
+[control] ctrl-block-2-333  train_sha=cedc12216916  test_sha=bb8dce25a134  Ztest_sha=f7208885f2a3
+{
+  "H_base": 3.4630217005588713,
+  "H_ib": 3.462582743116603,
+  "H_hash": 3.4616978828862286,
+  "delta_ib": {
+    "mean": -0.0004389574422681324,
+    "lo95": -0.0006390547658786224,
+    "hi95": -0.000229110307535437,
+    "p_le_0": 1.0
+  },
+  "delta_hash": {
+    "mean": -0.0013238176726428194,
+    "lo95": -0.001854879872438457,
+    "hi95": -0.0008816182396796211,
+    "p_le_0": 1.0
+  },
+  "k_ctx": 5,
+  "ib_clusters": 32,
+  "stride": 1,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 32,
+  "n_gram_order": 3,
+  "coverage_train": {
+    "full_frac": 0.3121121931474559,
+    "backoff_frac": 0.6878878068525441,
+    "null_frac": 2.381009071644563e-05
+  },
+  "coverage_test": {
+    "full_frac": 0.02317906550363909,
+    "backoff_frac": 0.9768209344963609,
+    "null_frac": 5.555864214678593e-05
+  },
+  "control": "block",
+  "control_tag": "ctrl-block-2-333"
+}

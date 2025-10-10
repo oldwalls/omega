@@ -1,0 +1,21 @@
+{
+  "model": "lorenz63",
+  "params": {
+    "n": 4,
+    "k_ctx": 5,
+    "ib_clusters": 64,
+    "stride": 2,
+    "seed": 111,
+    "ib_max_contexts": 9000,
+    "bootstrap": 2000,
+    "alpha": 0.05,
+    "tag": "GLOBAL_shuffle"
+  },
+  "tag": "lorenz63-n4-k5-cl64-ctx9000-s2-sd111-bs2000-a0p05-tGLOBAL_shuffle-426b88afd85a",
+  "run_id": "426b88afd85a",
+  "duration_s": 37.533,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\lorenz63\\lorenz63-n4-k5-cl64-ctx9000-s2-sd111-bs2000-a0p05-tGLOBAL_shuffle-426b88afd85a\\lorenz63-n4-k5-cl64-ctx9000-s2-sd111-bs2000-a0p05-tGLOBAL_shuffle-426b88afd85a.json"
+}

@@ -1,0 +1,36 @@
+{
+  "H_base": 1.5365414798745765,
+  "H_ib": 1.7543915592017991,
+  "H_hash": 3.843095154714301,
+  "delta_ib": {
+    "mean": 0.21785007932722253,
+    "lo95": 0.06368089193520324,
+    "hi95": 0.4724414382969195,
+    "p_le_0": 0.0
+  },
+  "delta_hash": {
+    "mean": 2.3065536748397246,
+    "lo95": 2.139684658283494,
+    "hi95": 2.4756009370676932,
+    "p_le_0": 0.0
+  },
+  "k_ctx": 7,
+  "ib_clusters": 32,
+  "stride": 1,
+  "label_mode": "ib",
+  "null_label": "C-1",
+  "n_clusters": 32,
+  "n_gram_order": 3,
+  "coverage_train": {
+    "full_frac": 0.07347301728449952,
+    "backoff_frac": 0.9265269827155005,
+    "null_frac": 0.000389040182293114
+  },
+  "coverage_test": {
+    "full_frac": 0.0,
+    "backoff_frac": 1.0,
+    "null_frac": 0.0035122930255895636
+  },
+  "control": "block",
+  "control_tag": "ctrl-block-2-111"
+}

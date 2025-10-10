@@ -1,0 +1,21 @@
+{
+  "model": "henon",
+  "params": {
+    "n": 3,
+    "k_ctx": 5,
+    "ib_clusters": 64,
+    "stride": 2,
+    "seed": 111,
+    "ib_max_contexts": 9000,
+    "bootstrap": 2000,
+    "alpha": 0.05,
+    "tag": "GLOBAL_shuffle"
+  },
+  "tag": "henon-n3-k5-cl64-ctx9000-s2-sd111-bs2000-a0p05-tGLOBAL_shuffle-e4db1804e718",
+  "run_id": "e4db1804e718",
+  "duration_s": 37.36,
+  "status": "OK",
+  "train": null,
+  "holdout": null,
+  "out_json": "C:\\omega\\omega\\runs\\henon\\henon-n3-k5-cl64-ctx9000-s2-sd111-bs2000-a0p05-tGLOBAL_shuffle-e4db1804e718\\henon-n3-k5-cl64-ctx9000-s2-sd111-bs2000-a0p05-tGLOBAL_shuffle-e4db1804e718.json"
+}
