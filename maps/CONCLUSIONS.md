@@ -7,14 +7,16 @@ Three progressively randomized tiers — **Native (Clean)**, **Block-B2 Shuffle*
 
 ###  1. Hierarchical Response Gradient
 
-| Condition | Structural Regime | ⟨|Δᵢᵦ|⟩ (bits / token) | Relative Level | Interpretation |
+| Condition | Structural Regime | <Δ_ib> (bits/token) | Relative Level | Interpretation |
 |:--|:--|:--:|:--:|:--|
-| **Native Runs** | Fully ordered / physical structure intact | 10⁻¹ – 10⁰ | **Ω-Positive Zone** | Predictive information dominates entropy; semantic order highest. |
-| **Block B2 Shuffle** | Local disruption, global coherence retained | 10⁻² – 10⁻¹ | **Ω-Transition Zone** | Partial semantic retention; coherence reduced but measurable. |
-| **Global Shuffle** | Complete temporal randomization | ≤ 10⁻³ | **Ω-Null Zone** | Semantic entropy maximal; predictive information ≈ 0. |
+| **Native Runs** | Fully ordered / physical structure intact | 1e−1 – 1e⁰ | **Ω-Positive Zone** | Predictive information dominates entropy; semantic order highest. |
+| **Block B2 Shuffle** | Local disruption, global coherence retained | 1e−2 – 1e−1 | **Ω-Transition Zone** | Partial semantic retention; coherence reduced but measurable. |
+| **Global Shuffle** | Complete temporal randomization | ≤ 1e−3 | **Ω-Null Zone** | Semantic entropy maximal; predictive information ≈ 0. |
 
-Δᵢᵦ amplitudes scale monotonically with the degree of structural order, forming a **three-step semantic gradient**.
-This demonstrates that Ω-Scanner outputs are not artefacts of algorithmic bias but genuine indicators of residual predictivity in the data substrate.
+Δ_ib amplitudes scale monotonically with the degree of structural order, forming a **three-step semantic gradient**.  
+This demonstrates that Ω-Scanner outputs are genuine indicators of residual predictivity in the data substrate.
+
+
 
 ---
 
