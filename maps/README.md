@@ -36,7 +36,7 @@ Each tier contains three parallel data layers:
 8. 1-D Ising Model (`ising1d`)  
 9. 2-D Ising Model (`ising2d_fixed`)
 
-Discussion: [`models`](Models.md)
+Discussion: [`models`](MODELS.md)
 
 ---
 
