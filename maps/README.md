@@ -8,7 +8,7 @@ Each system was tested under three regimes — **Native (no control)**, **Global
 
 ##  Overview
 
-Background: (`Alphabetization`)[ALPHABETIZATION.md]
+Background: [`Alphabetization`](ALPHABETIZATION.md)
 
 | Tier | Structural Regime | Description |
 |:--|:--|:--|
@@ -36,7 +36,7 @@ Each tier contains three parallel data layers:
 8. 1-D Ising Model (`ising1d`)  
 9. 2-D Ising Model (`ising2d_fixed`)
 
-Discussion: (`models`)[Models.md]
+Discussion: [`models`](Models.md)
 
 ---
 
@@ -53,4 +53,4 @@ By evaluating Δᵢᵦ across shuffled and unshuffled data, we demonstrate:
 
 ##   Conclusions
 
-Discussion: (`conclusions`)[CONCLUSIONS.md]
+Discussion: [`conclusions`](CONCLUSIONS.md)
