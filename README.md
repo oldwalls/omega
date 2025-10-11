@@ -42,12 +42,18 @@ Repo Location: [`maps`](maps)
 
 Initial Testing - single runs: [`synthetic`](synthetic) 
 
+---
+
 Thank you for your patience and interest in the scientific validation of LOG.
 
 ---
-<img width="420" alt="image" src="https://github.com/user-attachments/assets/3718558f-f7fb-4e6d-a887-9b87bc2baa82" />
+
+### From Synthetic Omega to Unified Physics
+
+[`Telos`](https://github.com/oldwalls/omega/tree/main/TELOS)
 
 ---
+<img width="420" alt="image" src="https://github.com/user-attachments/assets/3718558f-f7fb-4e6d-a887-9b87bc2baa82" />
 
 
 # Logos Omega Gradient (Ω) — Priority Marker
@@ -94,6 +100,13 @@ alphabetization itself tilts noisy streams toward **sense-bearing compact codes*
 * This repo contains the first recorded computational confirmation of the **Logos Omega Gradient**.
 * The working codebase will be published once it reaches sufficient quality for independent replication.
 * This marker establishes **priority of idea and implementation path**.
+
+---
+
+### Expanded README
+
+
+[`Expanded`](https://github.com/oldwalls/omega/blob/main/README_EXPANDED.md)
 
 ---
 
