@@ -16,10 +16,11 @@
 
 ###  Aggregate Behavior
 
-[
+$$
 \langle |\Delta_{IB}^{\text{mean}}| \rangle_{\text{B2}} \approx 1.8\times10^{-2},
 \quad \sigma_{\text{avg}} \approx 4\times10^{-2}.
-]
+$$
+
 Amplitude range spans **two orders above Global Shuffle** yet below Native runs, forming a clean middle tier between total order and total chaos.
 
 ---
@@ -81,10 +82,11 @@ Here’s the **BLOCK B2 shuffle tier** rendered in the same scientific-summary v
 
 ###  Aggregate Behavior
 
-[
+$$
 \langle|\Delta_{IB}^{\text{mean}}|\rangle_{B2}\approx1.8\times10^{-2},\qquad
 \sigma_{\text{avg}}\approx4\times10^{-2}.
-]
+$$
+
 Signal magnitude lies **10–100 × above the global-shuffle null** yet below native, forming a clean middle stratum between full order and full entropy.
 
 ---
