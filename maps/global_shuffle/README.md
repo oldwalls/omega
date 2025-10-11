@@ -16,10 +16,11 @@
 
 ###  Aggregate Behavior
 
-[
+$$
 |\Delta_{IB}^{\text{mean}}| < 10^{-3} \text{ bits/token for 7 / 9 systems;}
 \quad \sigma_{\text{avg}} ≈ 5×10^{-4}.
-]
+$$
+
 All sinusoid fits display amplitudes ≤ 10⁻³ and no coherent phase drift.
 This defines the **Ω-statistical null envelope** — the background variance against which Ω-positive signals are judged.
 
