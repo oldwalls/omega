@@ -26,14 +26,14 @@
 
 ###  Global Summary
 
-[
+$$
 \text{mean}(\Delta_{IB}) =
 \begin{cases}
 -0.03 \pm 0.02 & \text{for deterministic chaotic},\
 +0.006 \pm 0.002 & \text{for stochastic / critical},\
 +0.37 \pm 0.55 & \text{for monotonic nonlinear}.
 \end{cases}
-]
+$$
 
 **Interpretive rule:**
 
