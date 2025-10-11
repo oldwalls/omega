@@ -8,7 +8,7 @@
 
 The complete dataset from the Synthetic Validation Suite (SVS) Phase  is currently being ingested into the dedicated mapping/synthetic repository. This release validates the Ω-Scanner Statistical Methodology for substrate-invariance and structural hierarchy detection across nine canonical dynamical systems.
 
-Each system below was subjected to 192 independent Ω-map runs, including against the 
+Each system below was subjected to 192 independent Ω-map runs, including runs against the 
 ​  Global Shuffle and Block Shuffle.
 
 ## Nine Synthetic Systems in Release:
@@ -34,9 +34,9 @@ Each system below was subjected to 192 independent Ω-map runs, including agains
 ---
 
 Deliverables Per Function:
-Raw Data: Raw ΔΩ metric output for all 192 runs  
+Raw Data: Raw ΔΩ metric output for all 192 * 9 models (1728 independent Omega Scanner runs)
 Summary Data: Consolidated statistical metrics: Mean, Median, σ, and fit parameters  
-Distribution Plots: Visual distribution of the ΔΩ effect across the 192 runs
+Distribution Plots: Visual distribution of the ΔΩ effect across the 192 * 9 model runs
 
 Repo Location: [`maps`](maps)
 
