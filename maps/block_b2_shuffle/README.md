@@ -35,11 +35,11 @@ Amplitude range spans **two orders above Global Shuffle** yet below Native runs,
 
 ###  Quantitative Transition Summary
 
-| Condition | ⟨|Δᵢᵦ|⟩ (bits/token) | Relative Amplitude | Interpretation |
-|:--|:--:|:--:|:--|
-| **Global Shuffle** | ≈ 10⁻³ | 1× (base) | Pure null; semantic entropy max. |
-| **Block B2 Shuffle** | ≈ 10⁻² – 10⁻¹ | 10× – 100× | Intermediate order; partial semantic retention. |
-| **Native Runs** | ≈ 10⁻¹ – 10⁰ | > 100× | Full semantic structure; Ω-positive. |
+| Condition            | Delta_IB (bits/token) | Relative Amplitude | Interpretation                                  |
+| :------------------- | :-------------------: | :----------------: | :---------------------------------------------- |
+| **Global Shuffle**   |         ~1e-3         |      1x (base)     | Pure null; semantic entropy max.                |
+| **Block B2 Shuffle** |      ~1e-2 - 1e-1     |     10x - 100x     | Intermediate order; partial semantic retention. |
+| **Native Runs**      |      ~1e-1 - 1e0      |        >100x       | Full semantic structure; Omega-positive.        |
 
 ---
 
@@ -100,11 +100,11 @@ Signal magnitude lies **10–100 × above the global-shuffle null** yet below na
 
 ###  Quantitative Transition Summary
 
-| Condition | ⟨|Δᵢᵦ|⟩ (bits / token) | Relative Amplitude | Interpretation |
-|:--|:--:|:--:|:--|
-| Global Shuffle | ≈ 10⁻³ | 1× | Pure null; semantic entropy maximum. |
-| Block B2 Shuffle | 10⁻² – 10⁻¹ | 10–100× | Intermediate order; partial semantic retention. |
-| Native Runs | 10⁻¹ – 10⁰ | >100× | Full semantic structure; Ω-positive. |
+| Condition            | Delta_IB (bits/token) | Relative Amplitude | Interpretation                                  |
+| :------------------- | :-------------------: | :----------------: | :---------------------------------------------- |
+| **Global Shuffle**   |         ~1e-3         |         1x         | Pure null; semantic entropy maximum.            |
+| **Block B2 Shuffle** |      ~1e-2 - 1e-1     |     10x - 100x     | Intermediate order; partial semantic retention. |
+| **Native Runs**      |      ~1e-1 - 1e0      |        >100x       | Full semantic structure; Omega-positive.        |
 
 ---
 
