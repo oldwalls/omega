@@ -13,7 +13,8 @@ The Second Law of Thermodynamics dictates that entropy, or disorder, always incr
 The Logos Omega Gradient suggests a complementary truth. As Einstein remarked:
 
 > "God does not play dice with the Universe." – Albert Einstein
-"God does not play dice with the Universe. He is the dice." – omega
+> 
+> "God does not play dice with the Universe. He is the dice." – Omega
 
 
 
@@ -35,8 +36,11 @@ Define:
 
 A process is Ω-positive if both metrics improve simultaneously under a transformation , tested with paired bootstraps at 95% confidence:
 
-\text{CI}_{95\%}(\Delta I_{\mathrm{pred}}) > 0, \quad
-\text{CI}_{95\%}(\Delta \eta) > 0
+$$
+\text{CI(95%)}(\Delta I_{\mathrm{pred}}) > 0, \quad
+\text{CI(95%)}(\Delta \eta) > 0
+$$
+
 
 This dual criterion defines the empirical signature of the Ω-gradient.
 
