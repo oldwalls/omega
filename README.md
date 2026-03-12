@@ -175,10 +175,14 @@ $R^*$ derived without prior knowledge of $\alpha$ (O2 open). Analytic form of $A
 
 ---
 
+## [LOG 2.0 `tex` and `pdf`](https://github.com/oldwalls/omega/tree/main/LOG_2.0)
+---
+
 ## Repository Structure
 
 ```
 omega/
+├── LOG_2.0/              # latest LOG 2.0 pdf & tex
 ├── TELOS/              # Original Omega-TELOS framework and priority marker
 ├── synthetic/          # Synthetic Validation Suite (1,728 Ω-Scanner runs)
 ├── maps/               # Ω-map results across dynamical systems
@@ -189,6 +193,8 @@ omega/
 ├── CONTRIBUTING.md     # Contribution guidelines
 └── README.md           # This file
 ```
+
+
 
 **2nd Edition paper:** `log_gold_v7.pdf` (Zenodo, March 2026)  
 **Companion code:** fully self-contained in the *Reproduce* section above.
